@@ -1,0 +1,32 @@
+.sidebar-header {
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: #60abf8;
+  background: rgba(255,255,255,0.09);
+  border-bottom: 1px solid $border-dark;
+  margin-bottom: 25px;
+}
+.sidebar-avatar__img {
+  width: 60px;
+  height: 60px;
+  //background: #fff;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+.sidebar-info {
+  text-align: center;
+  &__name {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+  }
+  &__prof {
+    font-size: 14px;
+    color: #f6f6f6;
+    font-weight: 500;
+  }
+}

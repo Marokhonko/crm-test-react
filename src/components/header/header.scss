@@ -1,0 +1,17 @@
+.header {
+  display: block;
+  position: fixed;
+  width: calc(100% - 250px);
+  top: 0;
+  left: 250px;
+  height: 60px;
+  background: $header-bg-color;
+  padding: 10px;
+  .sub-header {
+    @extend.header;
+    border-top: 1px solid $border-dark;
+    top: 60px;
+    height: 60px;
+  }
+}
+
